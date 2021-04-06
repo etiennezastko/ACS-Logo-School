@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "helvetica";
+  src: url("Helvetica.ttf");
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.titre {
+  text-align: center;
+}
+.code {
+  background-color: #d61b4b;
+}
+
+body {
+  color: white;
+  background-color: #181818;
+  font-family: "helvetica";
+  font-weight: 200;
+  font-size: 2rem;
+}
+.school {
+  text-align: center;
+}
+.underline {
+  text-decoration: underline;
+  border: 0.5px solid black;
+}
+
+.school {
+  letter-spacing: 0.5rem;
+  font-family: "helvetica-Oblique" sans-serif;
+}
